@@ -1,3 +1,5 @@
+//This function removes all the vowels in the sentence
+
 function disVowel (fullsentence) {
     return fullsentence.replace(/[aeiouAEIOU]/g, '');
 }
